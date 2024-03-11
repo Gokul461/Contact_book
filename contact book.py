@@ -152,7 +152,7 @@ add.grid(row=4,column=2)
 label = Label(frame,text="Search",pady=10,padx=5,bg='gray10',fg='white',font=('Times New Roman',20))
 label.grid(row = 6,column=1)
 
-label = Label(frame,text="Enter name",pady=10,padx=5,bg='gray10',fg='white',font=('Times New Roman',15))
+label = Label(frame,text="Enter Id",pady=10,padx=5,bg='gray10',fg='white',font=('Times New Roman',15))
 label.grid(row = 7,column=0)
 
 entry = Entry(frame)
@@ -167,7 +167,7 @@ search.grid(row=7,column=2)
 label = Label(frame,text="update/delete",pady=10,padx=5,bg='gray10',fg='white',font=('Times New Roman',20))
 label.grid(row = 9,column=1)
 
-label = Label(frame,text="Enter name",pady=10,padx=5,bg='gray10',fg='white',font=('Times New Roman',15))
+label = Label(frame,text="Enter Id",pady=10,padx=5,bg='gray10',fg='white',font=('Times New Roman',15))
 label.grid(row = 10,column=0)
 
 entry5 = Entry(frame)
